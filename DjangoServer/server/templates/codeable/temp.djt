@@ -1,0 +1,7 @@
+<h1>THIS IS WORKING</h1>
+
+<form method="post" action="/codeable/upload/" enctype="multipart/form-data">
+			    {% csrf_token %}
+	<input name="file"  type="file">
+	<button type="submit">Upload</button>
+</form>
